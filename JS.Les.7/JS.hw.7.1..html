@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+  function User(id, name, surname , email, phone) {
+     this.id = id;
+     this.name = name;
+     this.surname = surname;
+     this.email = email;
+     this.phone = phone;
+  }
+
+  const user = new User(1, 'Vasya', 'Vasylenko', 'vas@km123', '+987654321');
+  console.log(user);
+
+  let users = [
+    new User(1, 'Vasya', 'Vasylenko', 'vas@km123', '+987654321'),
+    new User(2, 'Vova', 'Vovchenko', 'vov@km123', '+987654322'),
+    new User(3, 'Halya', 'Halenko', 'hal@km123', '+987654323'),
+    new User(4, 'Hrysha', 'Hrycenko', 'hrysha@km123', '+987654324'),
+    new User(5, 'Katya', 'Kotenko', 'kot@km123', '+987654325'),
+    new User(6, 'Kostya', 'Kostenko', 'kos@km123', '+987654326'),
+    new User(7, 'Lida', 'Lidenko', 'lid@km123', '+987654327'),
+    new User(8, 'Luda', 'Ludenko', 'lud@km123', '+987654328'),
+    new User(9, 'Masha', 'Mashenko', 'mash@km123', '+987654329'),
+    new User(10, 'Sasha', 'Sashenko', 'sash@km123', '+987654330')
+  ];
+  console.log(users);
+</script>
+
+</body>
+</html>

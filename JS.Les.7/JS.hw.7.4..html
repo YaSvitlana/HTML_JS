@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+        function Client(id, name, surname , email, phone, order) {
+        this.id = id;
+        this.nameClient = name;
+        this.surnameClient = surname;
+        this.email = email;
+        this.phone = phone;
+        this.products = order;
+        }
+        let Clients = [
+            new Client(1, 'Vasya', 'Vasylenko', 'vas@km123', '+987654321', [{title: 'TV', price: 12540}, {title: 'Phone', price: 8540}, {title: 'Сomputer', price: 18540}]),
+            new Client(2, 'Vova', 'Vovchenko', 'vov@km123', '+987654322', [{title: 'Laptop', price: 19280}]),
+            new Client(3, 'Halya', 'Halenko', 'hal@km123', '+987654323', [{title: 'Сomputer', price: 16420}, {title: 'Phone', price: 7890}]),
+            new Client(4, 'Hrysha', 'Hrycenko', 'hrysha@km123', '+987654324', [{title: 'TV', price: 13540}, {title: 'Laptop', price: 16540}]),
+        ];
+        console.log(Clients);
+
+</script>
+
+</body>
+</html>
