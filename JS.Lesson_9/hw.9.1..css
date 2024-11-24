@@ -1,0 +1,25 @@
+.wrap{
+    width: 250px;
+    height: 150px;
+    background: fuchsia;
+    color: chartreuse;
+}
+.collapse{
+    width: 150px;
+    height: 250px;
+    background: lightskyblue;
+    color: black;
+}
+.alpha{
+    width: 230px;
+    height: 230px;
+    background: greenyellow;
+    color: navy;
+}
+.beta{
+    width: 400px;
+    height: 400px;
+    background: gold;
+    color: brown;
+
+}
